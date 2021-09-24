@@ -45,7 +45,7 @@
     border: none;
     font-size: 1rem;
     color: white;
-    padding: 1rem;
+    padding: 5px;
     background-color: #4ddd4d;
 }
 
@@ -58,7 +58,7 @@
     border: none;
     font-size: 1rem;
     color: white;
-    padding: 1rem;
+    padding: 5px;
     background-color: #f03939;
 }
 
@@ -74,6 +74,8 @@ svg {
 
 .coinPrice {
     width: auto;
+    padding-top: 6px;
+    padding-bottom: 8px;
     background-color: transparent;
 }
 

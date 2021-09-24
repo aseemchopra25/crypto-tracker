@@ -18,8 +18,8 @@ const Coin = ({
         <p className="coinSymbol">{symbol}</p>
       </div>
       <p className="coinPrice">₹{price.toLocaleString()}</p>
-      <p className="coinMarketcap">Market Cap: ₹{marketcap.toLocaleString()}</p>
-      <p className="coinVolume">Volume (24H): ₹{volume.toLocaleString()}</p>
+      {/* <p className="coinMarketcap">Market Cap: ₹{marketcap.toLocaleString()}</p> */}
+      {/* <p className="coinVolume">Volume (24H): ₹{volume.toLocaleString()}</p> */}
       {priceChange < 0 ? (
         <div className="priceContainerDOWN">
           <i className="fas fa-angle-down fa-2x"></i>
