@@ -42,3 +42,21 @@
 .coin-input::placeholder{
   color: #e2e2e2;
 }
+
+.info-container{
+  display: flex;
+  justify-content: center;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  height: 80px;
+  width: 149px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #d7d7d7;
+
+
+}
